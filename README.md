@@ -20,26 +20,23 @@ A modified version of the official GNOME Shell extension `auto-move-windows`. In
    ```
 
 2. Copy or symlink the extension directory to your local GNOME Shell extensions path:
-```bash
-mkdir -p ~/.local/share/gnome-shell/extensions
-cp -r automove-display ~/.local/share/gnome-shell/extensions/auto-move-windows@gnome-shell-extensions.gcampax.github.com
-
-```
+   ```bash
+   mkdir -p ~/.local/share/gnome-shell/extensions
+   cp -r automove-display ~/.local/share/gnome-shell/extensions/auto-move-windows@gnome-shell-extensions.gcampax.github.com
+   ```
 
 
 3. Compile the GSettings schemas:
-```bash
-glib-compile-schemas ~/.local/share/gnome-shell/extensions/auto-move-windows@gnome-shell-extensions.gcampax.github.com/schemas/
-
-```
+   ```bash
+   glib-compile-schemas ~/.local/share/gnome-shell/extensions/auto-move-windows@gnome-shell-extensions.gcampax.github.com/schemas/
+   ```
 
 
 4. Restart GNOME Shell (log out and log back in on Wayland, or press `Alt + F2`, type `r`, and hit `Enter` on X11).
 5. Enable the extension via **GNOME Extensions** or CLI:
-```bash
-gnome-extensions enable auto-move-windows@gnome-shell-extensions.gcampax.github.com
-
-```
+   ```bash
+   gnome-extensions enable auto-move-windows@gnome-shell-extensions.gcampax.github.com
+   ```
 
 
 
