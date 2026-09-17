@@ -2,9 +2,6 @@
 # Auto Move Windows (Multi-Monitor Edition)
 
 
-
-
-
 A modified version of the official GNOME Shell extension `auto-move-windows`. In addition to assigning applications to specific workspaces, this fork allows pinning applications to designated displays/monitors upon launch.
 
 ## Features
@@ -20,8 +17,7 @@ A modified version of the official GNOME Shell extension `auto-move-windows`. In
 1. Clone this repository:
    ```bash
    git clone [https://github.com/De1tago/automove-display.git](https://github.com/De1tago/automove-display.git)
-
-```
+   ```
 
 2. Copy or symlink the extension directory to your local GNOME Shell extensions path:
 ```bash
