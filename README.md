@@ -44,6 +44,3 @@ A modified version of the official GNOME Shell extension `auto-move-windows`. In
 
 Open the extension settings via the **Extensions** app to add applications and configure their target workspace and display index.
 
-```
-
-```
