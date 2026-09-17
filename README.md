@@ -44,5 +44,7 @@ A modified version of the official GNOME Shell extension `auto-move-windows`. In
 
 Open the extension settings via the **Extensions** app to add applications and configure their target workspace and display index.
 
-[[preview.png]]
+<div align="center">
+<img width="256" height="256" alt="preview" src="https://github.com/De1tago/automove-display/blob/main/preview.png" />
+</div>
 
