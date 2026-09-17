@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-FileCopyrightText: 2016 Florian Müllner <fmuellner@gnome.org>
+
+SPDX-License-Identifier: GPL-2.0-or-later
+-->
+
+<schemalist gettext-domain="gnome-shell-extensions">
+  <schema id="org.gnome.shell.extensions.automove-display" path="/org/gnome/shell/extensions/automove-display/">
+    <key name="application-list" type="as">
+      <!-- FIXME: should be a(sus), when JS supports more of GVariant -->
+      <default>[ ]</default>
+      <summary>Application, workspace and display list</summary>
+      <description>A list of strings, each containing an application id (desktop file name), followed by a colon and the workspace number, and optionally another colon and the display connector name (e.g. 'DP-1') the application should be moved to.</description>
+    </key>
+  </schema>
+</schemalist>

@@ -1,0 +1,16 @@
+{
+  "description": "Move application windows to a specific workspace and display.",
+  "gettext-domain": "gnome-shell-extension-auto-move-windows",
+  "name": "Auto Move Windows + Display",
+  "original-authors": [
+    "alessandro.crismani@gmail.com",
+    "thomas.bouffon@gmail.com"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.automove-display",
+  "shell-version": [
+    "50"
+  ],
+  "uuid": "automove-display@deltago.github.io",
+  "version": 1,
+  "version-name": "1.0"
+}
